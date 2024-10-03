@@ -25,12 +25,24 @@ while ($row = $consAct->fetch_assoc()) {
 
 <head>
     <title>Ayuda</title>
-    <link rel="stylesheet" href="graf.css">
+    <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
+<input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+    <div class="wrapper">
+        <div class="list">
+        <ul>
+            <li><a href="index.php">Inicio</a></li>
+            <li><a href="votos.php">Votos</a></li>
+            <li><a href="ayuda.php">Ayuda</a></li>
+            <li><a href="ayuda.php">Editar o Eliminar</a></li>
+        </ul>
+        </div>
+    </div>
 
     <div class="full">
         <h1>Graph Example</h1>

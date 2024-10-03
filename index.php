@@ -23,6 +23,7 @@
         href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/ayud.css">
     <title>EL NIÑO CON EL PIJAMA DE RAYAS</title>
 </head>
 
@@ -31,13 +32,14 @@
     <label for="active" class="menu-btn"><span></span></label>
     <label for="active" class="close"></label>
     <div class="wrapper">
+        <div class="list">
         <ul>
-            <li><a href="index.php">Principal</a></li>
-            <li><a href="#">Configuración</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Feedback</a></li>
+            <li><a href="index.php">Inicio</a></li>
+            <li><a href="votos.php">Votos</a></li>
+            <li><a href="ayuda.php">Ayuda</a></li>
+            <li><a href="ayuda.php">Editar o Eliminar</a></li>
         </ul>
+        </div>
     </div>
     <!--   nav ^^^^^^  -->
 
@@ -169,11 +171,11 @@
 
         <div class="formulario">
             <form action="" method="post">
-                <label for="">Escribe tu Nombre</label>
+                <label for="">Nombre</label>
                 <input type="text" max="50" name="nombre" required><br><br><br>
 
                 <label>¿Qué Pelicula prefieres?</label><br>
-                <select name="peli" required>
+                <select name="pel" required>
                     <option value="El niño con el pijama de rayas">El niño con el pijama de rayas</option>
                     <option value="Tocando el viento">Tocando el viento</option>
                     <option value="brassed off: a film script">brassed off: a film script</option>

@@ -7,13 +7,17 @@
     }
 
     .wrapper {
+        margin: 0;
         position: fixed;
         top: 0;
         /*left: -100%;*/
         right: -100%;
         height: 100%;
-        width: 100%;
+        width: 90%;
         background: #4c13bff6;
+        background-image: url(bgenpj.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         transition: all 0.6s ease-in-out;
         border-radius: 20px;
     }
@@ -28,8 +32,8 @@
         z-index: 2;
         right: 20px;
         top: -70px;
-        height: 50px;
-        width: 50px;
+        height: 70px;
+        width: 90px;
         text-align: center;
         line-height: 50px;
         border-radius: 50%;
@@ -67,7 +71,6 @@
         transition: background .6s;
     }
 
-    /* closing animation */
     #active:checked+.menu-btn span {
         transform: scaleX(0);
     }
@@ -83,17 +86,18 @@
     }
 
     .wrapper ul {
+        width: 100%;
         position: absolute;
         top: 60%;
         left: 50%;
-        height: 90%;
+        height: 97%;
         transform: translate(-50%, -50%);
         list-style: none;
         text-align: center;
     }
 
     .wrapper ul li {
-        height: 10%;
+        height: 12%;
         margin: 15px 0;
     }
 
@@ -132,7 +136,7 @@
     }
 
     .wrapper ul li a:hover {
-        color: #ffffff;
+        color: #000;
     }
 
     input[type="checkbox"] {
@@ -175,4 +179,8 @@
         /* easeOutBackを緩めた感じ */
         transition-delay: .6s;
         transform: translateX(-100px);
+    }
+
+    .lista{
+        text-align: center;
     }
